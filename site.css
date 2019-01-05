@@ -1,0 +1,102 @@
+body, div, img, table {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+body {
+   background-repeat: no-repeat;
+   font-family: Arial, sans-serif;
+}
+
+#body {
+   margin: 30px 100px 0 330px;
+   width: 40em;
+}
+
+#header {
+   margin-left: 323px;
+   height: 116px;
+}
+
+#navbar {
+   margin: 6px 0 0 245px;
+   font-family: Lucinda, Lucinda Sans Unicode, Geneva, Arial, Helvetica, sans-serif;
+   font-size: 85%;
+   font-weight: bold;
+}
+
+#navbar td {
+   padding: 0 7px;
+}
+
+#navbar tr.row1 td {
+   border-right: 1px solid black;
+}
+
+#navbar tr.row1 td.last {
+   border-right: none;
+}
+
+#navbar a {
+   color: black;
+   text-decoration: none;
+}
+
+#navbar a:hover {
+   background-color: #FF6;
+}
+
+#navbar .current {
+   color: white;
+}
+
+#login {
+   position: absolute;
+   top: 440px;
+   left: 120px;
+}
+
+#error {
+   font-weight: bold;
+   color: red;
+}
+
+/* Technique for drop-shadows in CSS from
+   http://www.alistapart.com/articles/cssdropshadows/
+   - Thanks, Sergio!
+*/
+
+div.drop-shadow {
+   background: url(http://www.moonpiepress.com/images/books/shadowAlpha.png) no-repeat bottom right !important;
+   background: url(http://www.moonpiepress.com/images/books/shadow.gif) no-repeat bottom right;
+   margin: 10px 0 0 10px !important;
+   margin: 10px 0 0 5px;
+   float: left;
+}
+
+div.drop-shadow img {
+   display: block;
+   position: relative;
+   margin: -4px 4px 4px -4px;
+   border: 1px solid gray;
+}
+
+/*
+.img-shadow {
+  float:left;
+  background: url(images/shadowAlpha.png) no-repeat bottom right !important;
+  background: url(images/shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+}
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+}
+*/
