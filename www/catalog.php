@@ -241,6 +241,7 @@
                <td><a href='artwork.htm'            >ARTISTS         </a></td>
                <td  class="current"                 >CATALOG             </td>
                <td><a href="events.php"                >READINGS/EVENTS</a></td>
+			   <td><a href="DeepWater.htm"             >DEEP WATER</a>     </td>
                <td class='last'><a href='TakeHeart.htm'>TAKE HEART     </a></td>
             </tr>
          </table>
